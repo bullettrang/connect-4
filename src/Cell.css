@@ -1,0 +1,25 @@
+.Cell__wrapper{
+    background-color:#424242;
+    border-radius:50%;
+    width:42px;
+    height:42px;
+}
+
+
+
+
+@media(max-width:360px){
+    .Cell__wrapper{
+        width:20px;
+        height:20px;
+    }
+
+}
+
+@media(min-width: 361px) and (max-width:420px){
+    .Cell__wrapper{
+        width:25px;
+        height:25px;
+    }
+
+}

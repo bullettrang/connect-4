@@ -1,0 +1,21 @@
+.Reset__wrapper{
+    background-color:skyblue;
+    color:black;
+    padding:1em;
+    max-width:33%;
+    margin:1em auto;
+    border-radius: 3px;
+    transition: all 2ms ease-in;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 7px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 12px 0px rgba(0,0,0,0.75);
+}
+
+.Reset__wrapper:hover{
+    transform:translateY(-3px);
+}
+
+.Reset__wrapper:active{
+    transform:translateY(6px);
+}
